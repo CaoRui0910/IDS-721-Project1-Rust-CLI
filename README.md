@@ -1,6 +1,4 @@
-# rust-new-project-template
-A good starting point for a new Rust project
-
+# Filter for horror movies
 ## Intrucrion
 This project is a command line tool completed with Rust. It filters out films that meet their requirements for horror film lovers. It is important that the dataset of this project contains most of the horror films in the world since the 1950s, so horror movie lovers can't miss this tool!
 
