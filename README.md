@@ -8,7 +8,7 @@ This project is a command line tool completed with Rust. It filters out films th
 - Note: Because the original dataset is too large, the running time of the program will become longer. I used a smaller dataset (small_horror_movies.csv) just for the purpose of testing. 
 
 ## Usage
-- User can type in `cargo run -- subcommand -- commandLineArg < small_horror_movies.csv` in command line.
+- User can type in `cargo run -- subcommand -- commandLineArg < horror_movies.csv` in command line.
 - Subcommands in this project:
   - get-movie-info: Filter out all movies with the movie name "commandLineArg", and output all details of these movies.
   - get-popular-movie: Filter out all movies with more than "commandLineArg" popularity, and output all details of these movies.
@@ -16,10 +16,10 @@ This project is a command line tool completed with Rust. It filters out films th
   - get-movies-by-vote: Filter out all movies with more than "commandLineArg" average vote, and output all details of these movies.
 - Here are some examples:
     ```
-    cargo run -- get-movie-info -- Jeepers Creepers: Reborn < small_horror_movies.csv
-    cargo run -- get-popular-movie -- 100 < small_horror_movies.csv
-    cargo run -- get-movie-by-revenue -- 40000 < small_horror_movies.csv
-    cargo run -- get-movies-by-vote -- 7 < small_horror_movies.csv
+    cargo run -- get-movie-info -- Jeepers Creepers: Reborn < horror_movies.csv
+    cargo run -- get-popular-movie -- 100 < horror_movies.csv
+    cargo run -- get-movie-by-revenue -- 40000 < horror_movies.csv
+    cargo run -- get-movies-by-vote -- 7 < horror_movies.csv
     ```
 - Output example: The output of `cargo run -- get-popular-movie -- 100 < small_horror_movies.csv` is:
 <img width="933" alt="Screen Shot 2023-02-08 at 01 27 49" src="https://user-images.githubusercontent.com/93239143/217451692-75edfe61-56ab-4dd0-9f38-231494b343d3.png">
