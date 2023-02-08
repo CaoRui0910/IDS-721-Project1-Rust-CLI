@@ -21,7 +21,7 @@ This project is a command line tool completed with Rust. It filters out films th
     cargo run -- get-movie-by-revenue -- 40000 < small_horror_movies.csv
     cargo run -- get-movies-by-vote -- 7 < small_horror_movies.csv
     ```
-The output of `cargo run -- get-popular-movie -- 100 < small_horror_movies.csv` is:
+- Output example: The output of `cargo run -- get-popular-movie -- 100 < small_horror_movies.csv` is:
 <img width="933" alt="Screen Shot 2023-02-08 at 01 27 49" src="https://user-images.githubusercontent.com/93239143/217451692-75edfe61-56ab-4dd0-9f38-231494b343d3.png">
 
 ## References
